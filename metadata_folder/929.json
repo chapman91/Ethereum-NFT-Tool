@@ -1,0 +1,32 @@
+{
+    "name": "PinHead Clan #929",
+    "description": "PinHead Clan is a collection of 10,000 spikes built on ERC-404 on the base chain, an experimental token standard enabling persistent liquidity and semi-fungibility for Ethereum NFTs.",
+    "image": "https://ipfs.io/ipfs/QmQ7jWzYbqVDf8eHHZuEddsFQtMs4bV4PD5YeWWZX8mg2r/image9213.png",
+    "edition": 929,
+    "attributes": [
+        {
+            "trait_type": "mouth layers",
+            "value": "mouth, gas mask green"
+        },
+        {
+            "trait_type": "eye layers ",
+            "value": "eye, chill orange"
+        },
+        {
+            "trait_type": "hat layers",
+            "value": "hat, afro spike white"
+        },
+        {
+            "trait_type": "base layers",
+            "value": "base, blue"
+        },
+        {
+            "trait_type": "shirt layers",
+            "value": "shirt, graphic-t pink"
+        },
+        {
+            "trait_type": " back ground layers",
+            "value": "background, purple"
+        }
+    ]
+}
