@@ -1,21 +1,21 @@
-NFT Image URL Updater
+# NFT Image URL Updater
 
-Overview
+## Overview
 
 NFT Image URL Updater is a Python script that allows you to dynamically update the image field in .json metadata files for an NFT collection. This is useful when you need to update the base URL of your NFT images (e.g., when moving images to a new hosting service). The script processes all .json files in a specified folder, updating each one’s image URL based on a provided base URL and file naming convention.
 
 
-Prerequisites
+### Prerequisites
 
 Python 3.x installed on your machine.
 Your NFT collection's metadata in .json format, stored in a folder.
 
-Installation
+#### Installation
 
 1. Clone or download this repository:
 
-   git clone https://github.com/yourusername/nft-url-updater.git
-   cd nft-url-updater
+   - git clone https://github.com/yourusername/nft-url-updater.git
+   - cd nft-url-updater
 
 
 
@@ -28,9 +28,9 @@ Usage
 
 2. Run the Script: The script uses default values for the metadata folder and base image URL. To run it with the defaults, simply execute:
 
-   python update_urls.py
+   - python update_urls.py
 
- 3. Adjust Configuration:
+3. Adjust Configuration:
    If necessary, update the metadata_folder and base_image_url directly in the script:
 
     metadata_folder = "./metadata_folder"
@@ -39,10 +39,10 @@ Usage
 4. Image Naming Convention: The script assumes your images follow a sequential naming pattern like image1.png, image2.png, etc.  If you use a different extension (e.g., .jpg), modify this line in update_urls.py:
 
 
-image_filename = f"image{i + 1}.png"
+    - image_filename = f"image{i + 1}.png"
 
 
-Example
+###### Example
 
 python update_urls.py
 This will update the image field of all .json files in ./metadata_folder/ to use the base URL https://ipfs.io/ipfs/QmYourNewBaseHash/.
