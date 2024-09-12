@@ -14,15 +14,15 @@ Your NFT collection's metadata in .json format, stored in a folder.
 
 1. Clone or download this repository:
 
-   `git clone https://github.com/yourusername/nft-url-updater.git`
-   `cd nft-url-updater`
+   - `git clone https://github.com/yourusername/nft-url-updater.git`
+   - `cd nft-url-updater`
 
 
 
 2. Prepare your metadata: Ensure your NFT metadata files are stored in a folder (e.g., ./ metadata_folder/) and that each .json file has an image field to update.
 
 
-Usage
+### Usage
 
 1. Open the Script: If you need to modify the script (e.g., change the image file extension), open update_urls.py in any text editor.
 
@@ -33,16 +33,17 @@ Usage
 3. Adjust Configuration:
    If necessary, update the metadata_folder and base_image_url directly in the script:
 
-    metadata_folder = "./metadata_folder"
-    base_image_url = "https://ipfs.io/ipfs/QmYourNewBaseHash/"
+   - `metadata_folder = "./metadata_folder"`
+   - `base_image_url = "https://ipfs.io/ipfs/QmYourNewBaseHash/"`
 
 4. Image Naming Convention: The script assumes your images follow a sequential naming pattern like image1.png, image2.png, etc.  If you use a different extension (e.g., .jpg), modify this line in update_urls.py:
 
 
-    - image_filename = f"image{i + 1}.png"
+    - `image_filename = f"image{i + 1}.png"`
 
 
 ###### Example
 
-python update_urls.py
-This will update the image field of all .json files in ./metadata_folder/ to use the base URL https://ipfs.io/ipfs/QmYourNewBaseHash/.
+1. Run script `python update_urls.py`
+
+2. This will update the image field of all .json files in ./metadata_folder/ to use the [base URL] (https://ipfs.io/ipfs/QmYourNewBaseHash/).
