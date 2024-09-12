@@ -14,8 +14,8 @@ Your NFT collection's metadata in .json format, stored in a folder.
 
 1. Clone or download this repository:
 
-   - git clone https://github.com/yourusername/nft-url-updater.git
-   - cd nft-url-updater
+   `git clone https://github.com/yourusername/nft-url-updater.git`
+   `cd nft-url-updater`
 
 
 
